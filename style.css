@@ -111,6 +111,7 @@
         font-style: italic;
       }
       
+      
 }
 body{
 background-color: #000;
@@ -139,6 +140,7 @@ h2.titulo{
 h2.titulo span{
   color: rgb(38, 9, 117) ;
 }
+
 /*ESTILO DO CABEÇALHO*/
 header{
     padding: 40px 4%;
@@ -226,10 +228,11 @@ section.Topo-do-site .flex{
 }
 
 /*Estilo da especialidade*/
-section.especialidades{
-  padding: 40px 4%;
+section.ESPECIALIDADES{
+  padding: 60px 4%;
 
 }
+
 .flex{
   gap: 60px;
 
@@ -257,3 +260,38 @@ section.especialidades{
   font-size: 23px;
 margin: 15px 0;
 }
+
+/*ESTILO SOBRE*/
+section.sobre{
+  text-align: justify;
+  padding: 40px 4%;
+  
+}
+
+.titulo-2{
+  padding: 20px;
+  text-align: justify;
+ 
+  
+}
+h2.titulo-2 span{
+  color: rgb(38, 9, 117) ;
+
+}
+
+
+p.paragrafo-1{
+  padding: 05px;
+}
+
+p.paragrafo-2{
+  padding: 05px;
+}
+
+.txt-sobre{
+  
+  color: #fff;
+  padding: 100px;
+  
+}
+
